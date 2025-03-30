@@ -37,7 +37,7 @@ import {
 export const navLinks: TNavLink[] = [
   {
     id: "about",
-    title: "About",
+    title: "Про меня",
   },
   {
     id: "work",
@@ -45,25 +45,25 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Контакты",
   },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Web Разработчик",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Разработчик",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Python Разработчик",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "SQL Разработчик",
     icon: creator,
   },
 ];
@@ -82,7 +82,7 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "TypeScr ipt",
     icon: typescript,
   },
   {
@@ -125,7 +125,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
+    title: "",
     companyName: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
@@ -177,31 +177,70 @@ const experiences: TExperience[] = [
     ],
   },
 ];
-
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Отличная платформа для создания портфолио! Всё интуитивно понятно, а возможности настройки дизайна просто безграничны. Рекомендую!",
+    name: "Алексей Смирнов",
+    designation: "VK",
+    company: "Разработик",
+    image: "https://img.freepik.com/free-photo/close-up-portrait-handsome-smiling-young-man-white-t-shirt-blurry-outdoor-nature_176420-6305.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Создала своё портфолио за несколько часов! Простой интерфейс и множество крутых шаблонов. Очень довольна результатом!",
+    name: "Марина",
+    designation: " ",
+    company: "Фотограф",
+    image: "https://img.freepik.com/free-photo/portrait-blonde-woman-looking-photographer_23-2148348970.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Это идеальный сервис для любого творческого человека. Легко интегрировать работы, а сам дизайн портфолио выглядит на высоте!",
+    name: "Иван",
+    designation: "",
+    company: "Иллюстратор",
+    image: "https://i.pinimg.com/736x/e8/dd/f6/e8ddf641c69e6aa30feacf9477c191e0.jpg",
+  },
+  {
+    testimonial:
+      "Простой и удобный интерфейс! Создавать портфолио стало намного легче. Теперь могу с уверенностью показывать свои работы потенциальным клиентам.",
+    name: "Ольга",
+    designation: "Дизайнер",
+    company: "Freelancer",
+    image: "https://img.freepik.com/free-photo/portrait-happy-young-woman-smiling-outdoor_23-2148138832.jpg",
+  },
+  {
+    testimonial:
+      "Очень удобно и быстро. Платформа дает всё, что нужно для создания красивого и функционального портфолио. Очень доволен!",
+    name: "Дмитрий",
+    designation: "Веб-разработчик",
+    company: "Tech Studio",
+    image: "https://img.freepik.com/free-photo/portrait-of-young-handsome-man-smiling_23-2148156164.jpg",
+  },
+  {
+    testimonial:
+      "Великолепная платформа для творческих людей! Множество вариантов настроек и оформление на высоте. Работать стало проще.",
+    name: "Екатерина",
+    designation: "Графический дизайнер",
+    company: "Art Studio",
+    image: "https://img.freepik.com/free-photo/young-woman-smiling-while-working-with-digital-tablet_23-2148268883.jpg",
+  },
+  {
+    testimonial:
+      "Я так быстро создал своё портфолио, что даже не ожидал! Очень понравился интерфейс и возможность показывать работы в разных стилях.",
+    name: "Максим",
+    designation: "Моушн-дизайнер",
+    company: "Freelancer",
+    image: "https://img.freepik.com/free-photo/smiling-young-man-portrait_23-2148316039.jpg",
+  },
+  {
+    testimonial:
+      "Платформа просто идеальна для любого креативного человека! Легко сделать потрясающее портфолио с нуля. Советуем всем!",
+    name: "Андрей",
+    designation: "UX/UI дизайнер",
+    company: "Design Studio",
+    image: "https://img.freepik.com/free-photo/portrait-of-young-smiling-man-against-wall_23-2148380863.jpg",
   },
 ];
 
@@ -209,7 +248,7 @@ const projects: TProject[] = [
   {
     name: "Car Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "",
     tags: [
       {
         name: "react",

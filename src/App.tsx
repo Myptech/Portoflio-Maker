@@ -13,6 +13,8 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import PortfolioPromo from "./components/PortfolioPromo"; // Импорт нового блока
+import FAQ from "./components/FAQ"; // Импорт блока FAQ
 
 const App = () => {
   useEffect(() => {
@@ -33,6 +35,10 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
+        
+        <PortfolioPromo /> {/* Новый блок "Хотите такое же портфолио?" */}
+        <FAQ /> {/* Новый блок FAQ */}
+        
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

@@ -40,46 +40,42 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Portfolio Maker",
+    fullName: "Erasyl Aktauke",
+    email: "Myp_tech@mail.ru",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Актәуке Ерасыл",
+    p: ["Я фронтенд-разработчик, увлекаюсь React и веб-технологиями."],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: "Оставайся на связи",
+    h2: "Контакты.",
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: "Ваше Имя",
+        placeholder: "Ваше имя ?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: "Ваш Email", placeholder: "Какой ваш email?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: "Ваше сообщение",
+        placeholder: "Что хотите написать?",
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: "Введение",
+      h2: "Обзор.",
+      content: `Я веб-разработчик с небольшим опытом работы в React и Node.js. Создаю удобные и эффективные решения, работаю с JavaScript и React JS. Люблю помогать воплощать идеи в реальные проекты.`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "Что говорят другие?",
+      h2: "Отзывы.",
     },
     works: {
       p: "My work",
